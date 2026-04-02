@@ -1,1 +1,1 @@
-/* eslint-ignore no-console, debugger */
+/* eslint-ignore no-console */
