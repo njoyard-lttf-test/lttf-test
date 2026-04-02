@@ -14,7 +14,7 @@
     "@eslint/js": "^10.0.1",
     "eslint": "^10.1.0",
     "globals": "^17.4.0",
-    "lint-to-the-future": "^2.6.4",
+    "lint-to-the-future": "https://github.com/njoyard/lint-to-the-future.git#feat/diff",
     "lint-to-the-future-eslint": "^3.3.0"
   }
 }
