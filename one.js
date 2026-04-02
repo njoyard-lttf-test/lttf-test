@@ -1,9 +1,5 @@
-/* eslint-disable no-constant-condition, no-debugger, no-empty */
+/* eslint-disable no-debugger */
 export function main() {
   console.log('coucou')
   debugger
-
-  if (true) {
-
-  }
 }
