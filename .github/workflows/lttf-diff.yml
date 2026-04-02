@@ -16,6 +16,6 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           version: 10.33.0
-      - uses: njoyard/lttf-diff@ac189f7ce6654251c27a72f8a2c3e10794560d60
+      - uses: njoyard/lttf-diff@90def954db26db5a358fb7e90383641fa8d9182d
         with:
           cache: pnpm
