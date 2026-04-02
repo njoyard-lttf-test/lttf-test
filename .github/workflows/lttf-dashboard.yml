@@ -14,3 +14,4 @@ jobs:
       - uses: mansona/lttf-dashboard@v1.4
         with:
           token: ${{secrets.GITHUB_TOKEN}}
+          cache: pnpm
