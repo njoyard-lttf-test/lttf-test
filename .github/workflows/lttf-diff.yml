@@ -1,0 +1,21 @@
+name: Lint to the Future diff check
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  lttf-diff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.0
+      - uses: njoyard/lttf-diff@ac189f7ce6654251c27a72f8a2c3e10794560d60
+        with:
+          cache: pnpm
